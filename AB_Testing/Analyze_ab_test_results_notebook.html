@@ -15354,7 +15354,9 @@ See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stabl
 <ul>
 <li>Null hypothesis: there is NO statiscal significane for a regression relationship between new page to the old page in term of converted rate</li>
 <li>p-value = 0 for intercept means we rejected the null hypothesis: there is a statistical significane to hypothesize that the intercept is different than zero</li>
-<li>p &gt; 0.05 for coefficent with the old page as the baseline suggests that we failed to reject the null hypothesis. We stayed with the null hypoethesis which is there is not statiscal significance between the conversion rate of the new landing page to the old landing page</li>
+<li>p &gt; 0.05 for coefficent with the old page as the baseline suggests that we failed to reject the null hypothesis. We stayed with the null hypoethesis which is there is not statiscal significance between the conversion rate of the new landing page to the old landing page
+<strong>resubmitted</strong></li>
+<li>p-value = 0.19 is different than the one in part II (p-value = 0.91) because of this is a two-tailed test. For two-tailed test, the p-value is the region between alpha/2 (with alpha=0.5) under null hyothesis</li>
 </ul>
 
 </div>
@@ -15739,6 +15741,14 @@ See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stabl
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>A well-written post on the this project is submitted <a href="https://github.com/rebeccaebarnes/DAND-Project-4/blob/master/Analyze_ab_test_results_notebook.ipynb">here</a></p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[54]:</div>
@@ -15850,7 +15860,9 @@ See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stabl
 <p><strong>Intepretation</strong></p>
 <ul>
 <li>p-values for UK and US &gt; 0.05 which means we failed to reject the null hypothesis. The null hypothesis is there is a statistical significance for a regresion relationship between UK to US and CA to US in term conversion rate of old and new pages</li>
-<li>Failed to reject null hypothesis: there is statiscal significance in conversion rate between old page and newpage between the countries</li>
+<li>Failed to reject null hypothesis: there is no statiscal significance in conversion rate between old page and newpage between the countries</li>
+<li>Practial implication: Change the landing page is the new one would not yield better conversion rate</li>
+<li>Be aware of other variables that produces more insights such as time spent on each page, click-through-rate to know which direction the new landing page should be improved</li>
 </ul>
 
 </div>
@@ -15873,11 +15885,44 @@ See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stabl
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">subprocess</span> <span class="k">import</span> <span class="n">call</span>
 <span class="n">call</span><span class="p">([</span><span class="s1">&#39;python&#39;</span><span class="p">,</span> <span class="s1">&#39;-m&#39;</span><span class="p">,</span> <span class="s1">&#39;nbconvert&#39;</span><span class="p">,</span> <span class="s1">&#39;Analyze_ab_test_results_notebook.ipynb&#39;</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[3]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>0</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
     </div>

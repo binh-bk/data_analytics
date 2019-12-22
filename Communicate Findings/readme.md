@@ -5,7 +5,7 @@
 
 # Introduction:
 
-- Ford GoBike is a system the rent tradinal bike with recent added ebike for metropolitan residers and visistors for short travels. By the end October 2019, The Bay Wheels, renamed of Ford GoBike after acquired by Lyft in July 2017, operated with 2600 bikes and 260 stations. For Bay Area, there mains servering regions are Downtown San Franciso, East Bay, and San Jose.
+- Ford GoBike is a system that rent tradition bike with recent added ebike for metropolitan residers and visistors for short travels. By the end October 2019, The Bay Wheels, renamed of Ford GoBike after acquired by Lyft in July 2017, operated with 2600 bikes and 260 stations. For Bay Area, there mains servering regions are Downtown San Franciso, East Bay, and San Jose.
 
 - We will download and use the Python libraries (mostly pandas, Matplotlib, Seborn) in Jupyter Notebook to explore and gather some insights about this system. The dataset after cleaning contains about 4.5 million rows and 13 columns. The columns tracked the duration, bike, station, and user type. Subscribers are who paid monthly rate ($15) and Customers paid as their ride ($2 per first 45 minutes). 
 
